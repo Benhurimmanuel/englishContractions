@@ -1,0 +1,22 @@
+{
+  "name": "contractions",
+  "version": "1.0.0",
+  "description": "converts contraction words to complete words, like I'll to I will or I shall",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benhurimmanuel/englishContractions.git"
+  },
+  "keywords": [
+    "contractions"
+  ],
+  "author": "Benhur Immanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benhurimmanuel/englishContractions/issues"
+  },
+  "homepage": "https://github.com/Benhurimmanuel/englishContractions#readme"
+}
