@@ -10,11 +10,12 @@ class Contractions {
     addContraction = (word, value) => {
         if (contractionsList.get(word)) {
             contractionsList.get(word).push(value)
-            return 1
         }
         else {
-            return contractionsList.set(word, [value])
+            contractionsList.set(word, [value])
         }
+        return "Contraction Updated"
+
     }
     getContraction = (word) => {
         if (contractionsList.get(word)) return contractionsList.get(word).join("/")
@@ -51,3 +52,4 @@ class Contractions {
 const contraction = new Contractions()
 module.exports = contraction
 
+console.log(contraction.addContraction("i'b", "I be"));

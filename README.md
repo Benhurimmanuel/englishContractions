@@ -52,7 +52,11 @@ To get a specific word
 contractions.getContraction("I'm");
 //I am
 ```
+To add a non existant contraction
+```
+contractions.addContraction("I'm","I am);
 
-
+//Contraction Updated
+```
 
 
