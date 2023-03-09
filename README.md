@@ -1,9 +1,7 @@
 # Description
  
  This Package can be used to convert contractd words to there full meaningful forms
-
-
-# Example
+## example  
 I'm = I am
 I'll = I will/ I shall
 
@@ -33,6 +31,16 @@ SOFTWARE.
 # Install
 ```
 $ npm install english_contractions
+```
 
 ```
+$ const contractions = require("english_contractions")
+```
+To apply contractions
+```
+contractions.applyContraction(sentence);
+```
+
+
+
 
