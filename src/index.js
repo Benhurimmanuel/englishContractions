@@ -50,3 +50,4 @@ class Contractions {
 
 const contraction = new Contractions()
 module.exports = contraction
+
