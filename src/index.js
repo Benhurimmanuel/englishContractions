@@ -1,4 +1,6 @@
-const contractionsList = require("./contractionsList")
+#!/usr/bin/env node
+
+const contractionsList = require("../contractionsList")
 
 
 class Contractions {
