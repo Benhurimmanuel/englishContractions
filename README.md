@@ -39,22 +39,22 @@ $ const contractions = require("english_contractions")
 To apply contractions
 ```
 const sentence = "I'm a Sentence.
-contractions.applyContraction(sentence);
+console.log(contractions.applyContraction(sentence));
 // i am a sentence.
 ```
 
 To check if an contraction exists
 ```
-contractions.hasContraction("I'm");
+console.log(contractions.hasContraction("I'm"));
 ```
 To get a specific word
 ```
-contractions.getContraction("I'm");
+console.log(contractions.getContraction("I'm"));
 //I am
 ```
 To add a non existant contraction
 ```
-contractions.addContraction("I'm","I am);
+console.log(contractions.addContraction("I'm","I am));
 
 //Contraction Updated
 ```
