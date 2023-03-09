@@ -1,6 +1,6 @@
 {
   "name": "english_contractions",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "converts contracted words to complete words, like I'll to I will or I shall",
   "main": "./src/index.js",
   "bin": "./src/index.js",
